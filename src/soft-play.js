@@ -1,11 +1,20 @@
-// TODO: Create a class in this file to contain all of the logic for this exercise
 class Softplay {
+  constructor(numAdults, numChildren) {
+    this.numAdults = numAdults
+    this.numChildren = numChildren
+  }
+
   enter(numAdults, numChildren) {
     console.log(numAdults, numChildren)
   }
-  leave(numAdults,numChildren)
+
+  leave(numAdults, numChildren) {
+    console.log(numAdults, numChildren)
+  }
+
+  occupy() {}
 }
-// TODO: Change the undefined value below to the name of your class
+
 module.exports = {
-    Softplay
+  Softplay
 }
